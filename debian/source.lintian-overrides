@@ -1,0 +1,2 @@
+# upstream package, split out from the python2.x sources
+python-stdlib-extensions source: native-package-with-dash-version
