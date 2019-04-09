@@ -13,7 +13,10 @@
 #pkgver	= 2.4.3-$(shell expr $(rel_ext) + 0)
 #pkgver	= 2.4.3-3ubuntu1
 
+include /usr/share/dpkg/architecture.mk
+
 PYVERS	= $(shell pyversions -vs)
+export PYTHONPATH:=/usr/lib/python2.7/plat-$(DEB_HOST_MULTIARCH)$(if $(PYTHONPATH),:$(PYTHONPATH))
 
 p_tk	= python-tk
 p_gdbm	= python-gdbm

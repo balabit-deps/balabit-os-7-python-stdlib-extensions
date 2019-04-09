@@ -1,8 +1,43 @@
+python-stdlib-extensions (2.7.16-2~18.04) bionic-proposed; urgency=medium
+
+  * SRU: LP: #1822993.
+
+ -- Matthias Klose <doko@ubuntu.com>  Tue, 09 Apr 2019 06:54:11 +0200
+
+python-stdlib-extensions (2.7.16-2) unstable; urgency=medium
+
+  * Re-pack the orig tarball without the VCS repo.
+
+ -- Matthias Klose <doko@debian.org>  Mon, 18 Mar 2019 13:19:16 +0100
+
+python-stdlib-extensions (2.7.16-1) unstable; urgency=medium
+
+  * Python 2.7.16 release.
+
+ -- Matthias Klose <doko@debian.org>  Mon, 04 Mar 2019 16:41:09 +0100
+
+python-stdlib-extensions (2.7.16~rc1-1) unstable; urgency=medium
+
+  * Python 2.7.16 release candidate.
+  * Bump standards version.
+  * Fix FTCBFS (Helmut Grohne). Closes: #913417.
+    + Multiarchify Build-Depends.
+    + Set up PYTHONPATH for cross compilation.
+    + cross.patch: Don't import built modules.
+
+ -- Matthias Klose <doko@debian.org>  Fri, 22 Feb 2019 16:52:18 +0100
+
+python-stdlib-extensions (2.7.15-1) unstable; urgency=medium
+
+  * Python 2.7.15 release.
+
+ -- Matthias Klose <doko@debian.org>  Wed, 02 May 2018 10:47:10 +0200
+
 python-stdlib-extensions (2.7.15~rc1-1) unstable; urgency=medium
 
   * Python 2.7.15 release candidate 1.
 
- -- Matthias Klose <doko@ubuntu.com>  Mon, 16 Apr 2018 16:23:00 +0200
+ -- Matthias Klose <doko@debian.org>  Mon, 16 Apr 2018 16:23:00 +0200
 
 python-stdlib-extensions (2.7.14-3) unstable; urgency=medium
 
