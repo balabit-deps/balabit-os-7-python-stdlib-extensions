@@ -1,3 +1,23 @@
+python-stdlib-extensions (2.7.17-1~18.04) bionic-proposed; urgency=medium
+
+  * SRU: LP: #1855133.
+  * Backport Python 2.7.17 to 18.04 LTS.
+
+ -- Matthias Klose <doko@ubuntu.com>  Wed, 04 Dec 2019 13:57:29 +0100
+
+python-stdlib-extensions (2.7.17-1) unstable; urgency=medium
+
+  * Python 2.7.17 release (no changes).
+
+ -- Matthias Klose <doko@debian.org>  Sun, 20 Oct 2019 11:26:32 +0200
+
+python-stdlib-extensions (2.7.17~rc1-1) unstable; urgency=medium
+
+  * Python 2.7.17 release candidate 1.
+  * Bump standards version.
+
+ -- Matthias Klose <doko@debian.org>  Thu, 10 Oct 2019 12:59:47 +0200
+
 python-stdlib-extensions (2.7.16-2~18.04) bionic-proposed; urgency=medium
 
   * SRU: LP: #1822993.
